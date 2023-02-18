@@ -206,3 +206,80 @@ body {
 #features .feature-box:nth-child(6) h6 {
   background-color: #fff2e5;
 }
+
+/* featured-products */
+#featured-products {
+  text-align: center;
+}
+#featured-products .product-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+#featured-products .product {
+  position: relative;
+  cursor: pointer;
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid #cce7d0;
+  border-radius: 10px;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.03);
+  margin: 15px 0;
+  transition: 0.3s ease;
+}
+
+#featured-products .product:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#featured-products .product img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+#featured-products .product .description {
+  text-align: start;
+  padding: 10px 0;
+}
+
+#featured-products .product .description span {
+  color: #606063;
+  font-size: 12px;
+}
+
+#featured-products .product .description h5 {
+  padding-top: 7px;
+  color: #1a1a1a;
+  font-size: 14px;
+}
+
+#featured-products .product .description i {
+  font-size: 12px;
+  color: #f3b519;
+}
+
+#featured-products .product .description h4 {
+  padding-top: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #088178;
+}
+
+#featured-products .product .cart {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50px;
+  background-color: #e8f6ea;
+  font-weight: 500;
+  color: #088178;
+  border: 1px solid #cce7d0;
+  bottom: 15px;
+  right: 10px;
+}
